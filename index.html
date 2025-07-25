@@ -45,9 +45,9 @@
         </section>
         <!--banner section end-->
     </header>
-    <main class="max-w-10/12 mx-auto">
+    <main class="">
         <!--Plants Section start-->
-    <section class="text-center mt-20 lg:mt-24">
+    <section class="text-center mt-20 lg:mt-24 max-w-10/12 mx-auto">
         <h3 class="text-3xl lg:text-5xl font-bold"><span class="text-amber-600">Our</span> <span class="text-black">Plants</span></h3>
         <p class="text-base lg:text-xl font-normal text-gray-500 mt-6">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br class="hidden  lg:inline">classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         <div class="grid grid-cols-2 lg:grid-cols-4 mt-10 gap-6">
@@ -111,7 +111,7 @@
     </section>
         <!--Plants Section end-->
     <!--Plant Lover section start-->
-    <section class="mt-24">
+    <section class="mt-24 max-w-10/12 mx-auto">
         <div class="flex flex-col lg:flex-row gap-8">
             <div class="w-full">
                 <img class="w-full h-auto" src="./assets/flower-store.png" alt="">
@@ -128,36 +128,44 @@
     </section>
     <!-- Plant Lover section end-->
      <!--latest deals section start-->
-     <section class="text-center mt-24">
-        <h3 class="text-6xl font-bold"><span class="text-amber-500">Latest</span>  <span class="text-black">Deals</span></h3>
-        <p class="text-gray-500 text-xl font-normal mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-     <div class="grid grid-cols-12 grid-rows-4 gap-8 mt-20">
-       <div class="bg-[url(./assets/deal-bloom.png)] bg-cover bg-center col-span-4 row-span-2 rounded-xl flex flex-col justify-center items-center text-center">
-        <h3 class="text-xl text-white font-base p-3">60% Off | Bloom Plant</h3>
-        <p class="underline text-white text-xl">Shop Now</p>
+     <section class="text-center mt-24 max-w-10/12 mx-auto">
+        <h3 class="text-4xl lg:text-6xl font-bold"><span class="text-amber-500">Latest</span>  <span class="text-black">Deals</span></h3>
+        <p class="text-gray-500 text-base lg:text-xl font-normal mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br class="hidden  lg:inline"> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+     <div class="grid grid-cols-1 lg:grid-cols-12 grid-rows-4 gap-8 mt-20">
+       <div class="bg-[url(./assets/deal-bloom.png)] bg-cover bg-center lg:col-span-4 lg:row-span-2 rounded-xl flex flex-col justify-center items-center text-center">
+        <h3 class="lg:text-xl text-white font-base p-3">60% Off | Bloom Plant</h3>
+        <p class="underline text-white lg:text-xl">Shop Now</p>
        </div>
-       <div class="bg-[url(./assets/deal-zabo.png)] bg-cover bg-center col-span-8 row-span-4 rounded-xl flex flex-col justify-center items-center text-center">
-          <h3 class="text-3xl text-white font-base p-3">25% Off | Zabo Plant</h3>
+       <div class="bg-[url(./assets/deal-zabo.png)] bg-cover bg-center lg:col-span-8 lg:row-span-4 rounded-xl flex flex-col justify-center items-center text-center">
+          <h3 class="lg:text-3xl text-white font-base p-3">25% Off | Zabo Plant</h3>
         
-        <p class="underline text-white text-xl">Shop Now</p>
+        <p class="underline text-white lg:text-xl">Shop Now</p>
        </div>
-       <div class="bg-[url(./assets/deal-ana.png)] bg-cover  col-span-4 row-span-2 flex flex-col justify-center items-center text-center rounded-xl w-full h-64">
-        <h3 class="text-xl text-white font-base p-3">60% Off | Ana Plant</h3>
-        <p class="underline text-white text-xl">Shop Now</p>
+       <div class="bg-[url(./assets/deal-ana.png)] bg-cover  lg:col-span-4 lg:row-span-2 flex flex-col justify-center items-center text-center rounded-xl w-full h-64">
+        <h3 class="lg:text-xl text-white font-base p-3">60% Off | Ana Plant</h3>
+        <p class="underline text-white lg:text-xl">Shop Now</p>
        </div>
      </div>
      </section>
      
      <!--latest deals section end-->
-     
+     <!--Join Section start-->
+     <section class="bg-[url(./assets/news-letter-bg.png)] bg-cover w-full h-80 flex flex-col justify-center items-center mt-24">
+      <h3 class="text-5xl text-white">Join the colorful Bunch</h3>
+      <div class="flex mt-6">
+        <input class="bg-white w-xl p-3" type="email" name="email" placeholder="your name" id="">
+      <input class="bg-amber-500 p-3" type="submit" value="Subscribe">
+      </div>
+     </section>
+     <!--Join Section end-->
     </main>
-    <footer class="flex justify-between max-w-10/12 mx-auto gap-6 pt-9 pb-36">
+    <footer class="flex flex-col lg:flex-row justify-between max-w-10/12 mx-auto gap-6 pt-9 pb-9">
        <div class="w-full">
         <img src="./assets/logo.png" alt="">
-        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        <p class="text-xl font-normal text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
        </div>
        <div class="w-full">
-        <ul>
+        <ul class="text-xl font-normal text-gray-500 space-y-4">
             <li>Home</li>
             <li>About Us</li>
             <li>Blog</li>
@@ -166,7 +174,7 @@
         </ul>
        </div>
        <div class="w-full">
-        <ul>
+        <ul class="text-xl font-normal text-gray-500 space-y-4">
             <li>Features</li>
             <li>Pricing</li>
             <li>Privacy Policy</li>
